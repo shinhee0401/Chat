@@ -1,0 +1,19 @@
+.chats {
+  margin-left: 70px;
+}
+.previews {
+  .preview_list {
+  }
+}
+
+a.preview_wrap {
+  color: #000;
+  &:first-child > .preview {
+    background-color: #fafafa;
+  }
+  .preview {
+    &:hover {
+      background-color: $gray3;
+    }
+  }
+}
